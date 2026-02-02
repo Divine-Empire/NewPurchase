@@ -1,0 +1,22 @@
+import {
+    PlusCircle, CheckCircle2, Users, MessagesSquare, FileEdit,
+    Phone, Package, ClipboardCheck, FileText, Upload, ShieldCheck,
+    CornerUpLeft, CreditCard, Truck
+} from "lucide-react";
+
+export const STAGES = [
+    { num: 1, name: "Create Indent", slug: "create-indent", icon: PlusCircle },
+    { num: 2, name: "Indent Approval", slug: "indent-approval", icon: CheckCircle2 },
+    { num: 3, name: "Update 3 Vendors", slug: "update-3-vendors", icon: Users },
+    { num: 4, name: "Negotiation", slug: "negotiation", icon: MessagesSquare },
+    { num: 5, name: "PO Entry", slug: "po-entry", icon: FileEdit },
+    { num: 6, name: "Follow-Up Vendor", slug: "follow-up-vendor", icon: Phone },
+    { num: 7, name: "Material Received", slug: "material-received", icon: Package },
+    { num: 8, name: "QC Requirement", slug: "qc-requirement", icon: ClipboardCheck },
+    { num: 9, name: "Receipt in Tally", slug: "receipt-in-tally", icon: FileText },
+    { num: 10, name: "Submit Invoice", slug: "submit-invoice", icon: Upload },
+    { num: 11, name: "Verification", slug: "verification", icon: ShieldCheck },
+    { num: 12, name: "Purchase Return", slug: "purchase-return", icon: CornerUpLeft },
+    { num: 13, name: "Vendor Payment", slug: "vendor-payment", icon: CreditCard },
+    { num: 14, name: "Freight Payments", slug: "freight-payments", icon: Truck },
+];
